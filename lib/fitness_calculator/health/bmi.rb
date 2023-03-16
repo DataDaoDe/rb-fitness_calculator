@@ -1,5 +1,5 @@
 module FitnessCalculator
-  module HealthScreening
+  module Health
     class BMI
       # see: https://en.wikipedia.org/wiki/Body_mass_index
 

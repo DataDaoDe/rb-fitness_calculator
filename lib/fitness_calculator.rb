@@ -3,9 +3,11 @@
 require_relative "fitness_calculator/version"
 
 module FitnessCalculator
+  autoload :Utils, "fitness_calculator/utils"
 
-  module HealthScreening
-    autoload :BMI, "fitness_calculator/health_screening/bmi"
+  module Health
+    autoload :BMI, "fitness_calculator/health/bmi"
+    autoload :BMR, "fitness_calculator/health/bmr"
   end
 
   module WeightTraining
