@@ -12,6 +12,5 @@ RSpec.describe FitnessCalculator::WeightTraining do
       ).map(&:round)
       expect(seq).to eq([100, 80, 64, 51, 41])
     end
-
   end
 end

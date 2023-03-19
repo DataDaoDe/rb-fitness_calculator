@@ -12,7 +12,7 @@ module FitnessCalculator
       end
 
       def self.epley(weight:, reps:)
-        weight * ( 1.0 + (reps / 30.0))
+        weight * (1.0 + (reps / 30.0))
       end
 
       def self.brzycki(weight:, reps:)
@@ -32,7 +32,7 @@ module FitnessCalculator
       end
 
       def self.wathen(weight:, reps:)
-        weight * (1.0 / (0.488 + (0.538*Math.exp(-0.075 * reps))))
+        weight * (1.0 / (0.488 + (0.538 * Math.exp(-0.075 * reps))))
       end
     end
   end
