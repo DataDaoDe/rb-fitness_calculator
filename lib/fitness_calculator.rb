@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "fitness_calculator/version"
-
 module FitnessCalculator
   autoload :Utils, "fitness_calculator/utils"
+  autoload :VERSION, "fitness_calculator/version"
+  autoload :Convert, "fitness_calculator/convert"
 
   module Health
     autoload :BMI, "fitness_calculator/health/bmi"

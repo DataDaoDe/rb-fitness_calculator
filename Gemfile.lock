@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     fitness_calculator (0.1.0)
+      ruby-units (~> 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -46,6 +47,7 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.13.0)
+    ruby-units (3.0.0)
     standard (1.24.3)
       language_server-protocol (~> 3.17.0.2)
       rubocop (= 1.44.1)
